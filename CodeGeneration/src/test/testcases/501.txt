@@ -1,0 +1,5 @@
+
+        void main()
+        {
+            printInteger(20);
+        }
