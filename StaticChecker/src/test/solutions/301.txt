@@ -1,0 +1,5 @@
+Program([
+	StructDecl(test, AttributeDecl([VarDecl(a, IntegerType), VarDecl(b, IntegerType)]), Constructor([ConstructorDecl(test, [], BlockStmt([AssignStmt(=, MemberAccess(this, Id(a)), IntegerLit(0)), AssignStmt(=, MemberAccess(this, Id(b)), IntegerLit(0))]))]))
+	StructDecl(test1, AttributeDecl([VarDecl(a, FloatType), VarDecl(b, FloatType)]), Constructor([ConstructorDecl(test1, [], BlockStmt([AssignStmt(=, MemberAccess(this, Id(a)), IntegerLit(0)), AssignStmt(=, MemberAccess(this, Id(b)), IntegerLit(0))]))]))
+	FuncDecl(main, VoidType, [], BlockStmt([VarDecl(a, StructType(test), NewExpr(test,[])), CallStmt(printInteger, MemberAccess(a, Id(c))), CallStmt(printString, StringLit(Hello World!))]))
+])

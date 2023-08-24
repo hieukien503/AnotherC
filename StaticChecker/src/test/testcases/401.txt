@@ -1,0 +1,6 @@
+
+        const int a = 8;
+        void main()
+        {
+            int b = a++;
+        }

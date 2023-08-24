@@ -1,0 +1,25 @@
+
+        struct test
+        {
+            int a, b;
+            test()
+            {
+                this->a = 0;
+                this->b = 0;
+            }
+        };
+        struct test1
+        {
+            float a, b;
+            test1()
+            {
+                this->a = 0;
+                this->b = 0;
+            }
+        };
+        void main()
+        {
+            struct test a = new test();
+            printInteger(a.c);
+            printString("Hello World!");
+        }
