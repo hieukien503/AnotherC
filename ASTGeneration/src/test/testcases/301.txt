@@ -1,0 +1,13 @@
+struct test
+        {
+            
+        };
+        void foo(struct test x)
+        {
+            
+        }
+        void main()
+        {
+            
+        }
+        

@@ -1,0 +1,7 @@
+int a, b, c;
+        int main()
+        {
+            c += ((a > b)? 0 : 1);
+            printInteger(c);
+        }
+        

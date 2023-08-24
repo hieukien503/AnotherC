@@ -1,0 +1,5 @@
+Program([
+	StructDecl(test, AttributeDecl([]), Constructor([]))
+	FuncDecl(foo, VoidType, [Param(x, StructType(test))], BlockStmt([]))
+	FuncDecl(main, VoidType, [], BlockStmt([]))
+])
