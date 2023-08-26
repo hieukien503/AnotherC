@@ -10,7 +10,7 @@ options {
 
 /* Fragments */
 fragment DoubleQuote: '\\"';
-fragment Character: ~[\b\n\f\r\t'"\\] | DoubleQuote | [\b\f\r\t']; 
+fragment Character: ~[\b\f\r\t'"\\] | DoubleQuote | [\b\f\r\t']; 
 
 
 /* Keywords */
